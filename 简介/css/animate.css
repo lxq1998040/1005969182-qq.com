@@ -1,0 +1,140 @@
+.yi{width:6.4rem;height:4.69rem;position: absolute;left:50%;margin-left:-3.2rem;top:1.68rem;
+    -webkit-animation: move 3s linear;
+    -o-animation: move 3s linear;
+    animation: move 3s linear;}
+@keyframes move {
+    0%{opacity: 0;}
+    20%{opacity: 0.3;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.8;}
+    100%{opacity: 1;}
+}
+.er{width:6.4rem;height:0.66rem;position: absolute;top:6.78rem;left:50%;margin-left:-3.2rem;
+    -webkit-animation: move_1 10s linear infinite;
+    -o-animation: move_1 10s linear infinite;
+    animation: move_1 10s linear infinite;}
+@keyframes move_1 {
+    0%{transform: translateX(-6.4rem)}
+    100%{transform: translateX(6.4rem)}
+}
+.san{width:6.4rem;height:0.78rem;position: absolute;top:3.22rem;left:50%;margin-left:-3.2rem;
+    -webkit-animation: move_15 3s linear infinite;
+    -o-animation: move_15 3s linear infinite;
+    animation: move_15 3s linear infinite;}
+.si{width:5.4rem;height:0.5rem;position: absolute;top:0.72rem;left:50%;margin-left:-3.2rem;
+    font: 48px 宋体;
+    -webkit-animation: move_3 3s 1s linear;
+    -o-animation: move_3 3s 1s linear;
+    animation: move_3 3s 1s linear;}
+@keyframes move_3 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.wu{width:6.4rem;height:0.5rem;position: absolute;top:2.48rem;left:50%;margin-left:-3.2rem;
+    font: 36px 宋体;
+    -webkit-animation: move_4 2s 5s linear;
+    -o-animation: move_4 2s 5s linear;
+    animation: move_4 2s 5s linear;}
+@keyframes move_4 {
+    0%{transform:scale(10);opacity: 0;}
+    100%{transform:scale(1);opacity: 1;}
+}
+.liu{width:6.4rem;height:0.5rem;position: absolute;top:3.74rem;left:50%;margin-left:-3.2rem;
+    font: 36px 宋体;
+    -webkit-animation: move_4 2s 3.5s linear;
+    -o-animation: move_4 2s 3.5s linear;
+    animation: move_4 2s 3.5s linear;}
+.qi{width:6.4rem;height:0.5rem;position: absolute;top:5.04rem;left:50%;margin-left:-3.2rem;
+    font: 36px 宋体;
+    -webkit-animation: move_4 2s 6s linear;
+    -o-animation: move_4 2s 6s linear;
+    animation: move_4 2s 6s linear;}
+.ba{width:6.4rem;height:0.6rem;position: absolute;top:6.44rem;left:50%;margin-left:-3.2rem;
+    font: 36px 宋体;
+    -webkit-animation: move_7 3s 7.5s linear;
+    -o-animation: move_7 3s 7.5s linear;
+    animation: move_7 3s 7.5s linear;}
+@keyframes move_7 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.shi{width:6.4rem;height:0.6rem;position: absolute;top:7.64rem;left:50%;margin-left:-3.2rem;
+    font: 36px 宋体;
+    -webkit-animation: move_7 3s 7.5s linear;
+    -o-animation: move_7 3s 7.5s linear;
+    animation: move_7 3s 7.5s linear;}
+.shiyi{width:6.4rem;height:0.6rem;position: absolute;top:4.94rem;left:50%;margin-left:-3.2rem;
+    -webkit-animation: move_7 3s 7.5s linear;
+    -o-animation: move_7 3s 7.5s linear;
+    animation: move_7 3s 7.5s linear;}
+.shier{width:6.4rem;height:1.4rem;position: absolute;top:1.02rem;left:50%;margin-left:-3.2rem;
+    -webkit-animation: move_8 0.5s 8s linear;
+    -o-animation: move_8 0.5s 8s linear;
+    animation: move_8 0.5s 8s linear;}
+@keyframes move_8 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.shiwu{width:6.4rem;height:3.92rem;position: absolute;left:50%;margin-left:-3.2rem;top:1.26rem;
+    -webkit-animation: move_15 3s linear;
+    -o-animation: move_15 3s linear;
+    animation: move_15 3s linear;}
+@keyframes move_15 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.shiwu_1{width:6.4rem;height:3.92rem;position: absolute;left:90%;margin-left:-3.2rem;top:3.26rem;
+    -webkit-animation: move_15 6s linear;
+    -o-animation: move_15 6s linear;
+    animation: move_15 6s linear;}
+@keyframes move_15 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.shiwu_2{width:6.4rem;height:3.92rem;position: absolute;left:75%;margin-left:-3.2rem;top:4.26rem;
+    -webkit-animation: move_15 8s linear;
+    -o-animation: move_15 8s linear;
+    animation: move_15 8s linear;}
+@keyframes move_15 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.shiwu_3{width:6.4rem;height:3.92rem;position: absolute;left:50%;margin-left:-3.2rem;top:5.26rem;
+    -webkit-animation: move_15 10s linear;
+    -o-animation: move_15 10s linear;
+    animation: move_15 10s linear;}
+@keyframes move_15 {
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0);}
+}
+.shiliu,.shiqi{width:6.4rem;height:3.22rem;position: absolute;left:55%;margin-left:-3.2rem;top:0.26rem;
+    -webkit-animation: move 3s linear;
+    -o-animation: move 3s linear;
+    animation: move 3s linear;}
+.shiba,.shiqiu,.ershi,.ershiyi,.ershier,.ershisan{padding-left:0.70rem;float:left;width:4.95rem;height:3.80rem;position: absolute;left:50%;margin-left:-3.2rem;top:7.84rem;}
+@keyframes move_9 {
+    0%{transform:rotate(0deg)}
+    20%{transform:rotate(-90deg)}
+    50%{transform:rotate(-180deg)}
+    70%{transform:rotate(-270deg)}
+    100%{transform:rotate(-360deg)}
+}
+@keyframes move_6 {
+    0%{transform:rotate(0deg)}
+    20%{transform:rotate(90deg)}
+    50%{transform:rotate(180deg)}
+    70%{transform:rotate(270deg)}
+    100%{transform:rotate(360deg)}
+}
+.shiba{  -webkit-animation: move_6 1s linear;
+    -o-animation: move_6 1s linear;
+    animation: move_6 1s linear;}
+.shiqiu{top:3.84rem;margin-left:0.001rem;padding-right:0.14rem;
+    -webkit-animation: move_9 1s linear;
+    -o-animation: move_9 1s linear;
+    animation: move_9 1s linear;}
+.ershi{top:6.48rem;padding-right:0.14rem;font: 48px 宋体;
+    -webkit-animation: move_6 1s linear;
+    -o-animation: move_6 1s linear;
+    animation: move_6 1s linear;}
+

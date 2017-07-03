@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link  rel="stylesheet" href="css/index.css">
+    <link  rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/fontsize.js"></script>
+</head>
+<body>
+<div class="da">
+    <div class="transtion_my">
+      <img src="images/z1_2.png" class="er">
+      <img src="images/z1_3.png" class="san">
+    </div>
+    <div class="transtion_my down">
+        <p class="si">个人信息</p>
+        <p class="shi">姓名:李鑫泉</p>
+        <p class="wu">所在学院:盛邦升华</p>
+        <p class="liu">地址:河北秦皇岛</p>
+        <p class="qi">专业:web前端</p>
+        <p class="ba">学历:大专</p>
+    </div>
+    <div class="transtion_my down">
+        <p class="shiwu">专业知识</p>
+        <p class="shiwu_1">html5</p>
+        <p class="shiwu_2">css3</p>
+        <p class="shiwu_3">jQuery</p>
+        <img src="images/z4_4.png" class="shiba">
+    </div>
+    <div class="transtion_my down">
+        <p class="ershi">风里雨里等你</p>
+    </div>
+</div>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    //    手指滑动
+    var curpage=0;
+    $(".da>div").eq(0).siblings().children().addClass("yin");
+//    $(".da>div>div").eq(0).siblings().children().addClass("yin");
+    $(".da").swipeUp(function(){
+        if(curpage<3) {
+            $(".da>div").eq(curpage).addClass("up");
+            $(".da>div").eq(curpage).children().addClass("yin");
+            curpage++;
+            $(".da>div").eq(curpage).children().removeClass("yin");
+            $(".da>div").eq(curpage).removeClass("down");
+        }
+    });
+    $(".da").swipeDown(function(){
+        if(curpage>0) {
+            $(".da>div").eq(curpage).addClass("down");
+            $(".da>div").eq(curpage).children().addClass("yin");
+            curpage--;
+            $(".da>div").eq(curpage).children().removeClass("yin");
+            $(".da>div").eq(curpage).removeClass("up");
+        }
+    });
+</script>
+</html>
